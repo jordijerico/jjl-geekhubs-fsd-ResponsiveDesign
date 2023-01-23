@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+
+}
+
+header {
+    height: 15vh;
+    background-color: pink;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.menu {
+    height: 70vh;
+    width: 25vw;
+    background-color: bisque;
+}
+
+.main {
+    height: 70vh;
+    margin-left: 5px;
+    width: 75vw;
+    background-color: brown;
+}
+
+.footer{
+    background-color: tomato;
+    height: 15vh;
+    margin-top: 10px;
+}
+
+/* NEXUS 5 360px */
+@media (max-width: 360px) {
+    .menu {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        margin-left: 0px
+    }
+}
